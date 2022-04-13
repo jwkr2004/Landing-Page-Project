@@ -1,0 +1,39 @@
+.resume{
+    color: white;
+    font-family: "Roboto", serif;
+    background-color:#545454;
+    border:2px solid white;
+    margin-left:60px;
+    margin-right:60px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+header{
+    text-align: center;
+}
+
+header h2{
+    font-size: 33px;
+}
+
+header hr{
+    width: 70%;
+    color: white;
+    background-color: white;
+}
+
+section{
+    margin-top: 12px;
+    margin-left: 14.9%;
+    text-align: left;
+    width: 70%;
+}
+
+section h3{
+    font-size: 25px;
+}
+
+.sec4{
+    margin-bottom: 140px;
+}

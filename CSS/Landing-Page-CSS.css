@@ -1,0 +1,139 @@
+/*Changes the background to a specified image*/
+html{
+    font-family: "Roboto", sans-serif, serif;
+    background-color: rgb(52, 180, 231);
+}
+
+/*Changes The color of links*/
+nav a:link{
+    color:white;
+    text-decoration:none;
+}
+
+/*Changes The color of Visted links*/
+nav a:visited{
+    color:white;
+    text-decoration:none;
+}
+
+/*Changes The color of links when hovering over one*/
+nav a:hover{
+    color:rgb(185, 185, 185);
+    text-decoration:none;
+}
+
+/*Changes The color of links while clicked*/
+nav a:active{
+    color:rgb(185, 185, 185);
+    text-decoration:none;
+}
+
+/*Changes The color of links*/
+.container1 a:link{
+    color:rgb(247, 163, 9);
+    text-decoration:none;
+}
+
+/*Changes The color of Visted links*/
+.container1 a:visited{
+    color:rgb(247, 163, 9);
+    text-decoration:none;
+}
+
+/*Changes The color of links when hovering over one*/
+.container1 a:hover{
+    color:rgb(250, 169, 16);
+    text-shadow: 1px 0px rgb(165, 165, 165);
+    text-decoration:none;
+}
+
+/*Changes The color of links while clicked*/
+.container1 a:active{
+    color:rgb(250, 169, 16);
+    text-shadow: 1px 0px rgb(165, 165, 165);
+    text-decoration:none;
+}
+
+/*The logo is the image displayed in the top left of the webpage*/
+.logo{
+    background-color: #545454;
+    border: 2px solid white;
+    width: 173px;
+    height: 86px;
+    position: absolute;
+    left: 68px;
+    top: 10px;
+}
+
+/**/
+.logo p{
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/*Modifys the img inside of the container1 block*/
+.container1 img{
+    border: 2px solid white;
+}
+
+/*Modifys the h1 at the top of the screen*/
+.container1 h1{
+    font-family: "Roboto", serif;
+    background-color: #545454;
+    color: white;
+    border: 2px solid white;
+    font-size: 60px;
+    text-shadow: 1px 1px black;
+    margin-top: 10px;
+    margin-left: 247px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 7px;
+    padding-right: 187px;
+}
+
+/*Modifys the heading at the top of the screen*/
+h1.heading1{
+    text-align: center;
+}
+
+/*Modifys the list properties that are inside of nav*/
+nav li{
+    font-family: "Roboto", sans-serif;
+    text-transform:capitalize;
+    list-style-type:none;
+    display:inline-block;
+}
+
+nav ul{
+    word-spacing: 10px;
+    background-color:#545454;
+    color:white;
+    border:2px solid white;
+    font-size:30px;
+    text-align:center;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-left:60px;
+    margin-right:60px;
+    padding:0px 0px 0px 0px;
+}
+
+.navtext{
+    color:rgb(185, 185, 185);
+    text-decoration-line:underline; 
+}
+
+.img1{
+    margin-top: 120px;
+    text-align: center;
+}
+
+footer{
+    color: white;
+    margin-top: 700px;
+    text-align: center;
+}
